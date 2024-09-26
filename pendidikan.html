@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+        }
+        h1 {
+            color: rgb(37, 37, 34);
+        }
+        .card {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .nav-link {
+            font-size: 18px;
+        }
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0; /* Jarak vertikal antara gambar dan teks */
+        }
+        .img-fluid {
+            border-radius: 10px;
+            width: 100%; /* Mengatur lebar gambar sesuai kontainer */
+            max-width: 200px; /* Menetapkan lebar maksimum gambar */
+            height: auto; /* Memastikan tinggi otomatis */
+        }
+        li {
+            margin-bottom: 20px; /* Jarak antara item dalam daftar */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Profil Pribadi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="pengalaman.html">Pengalaman</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card">
+                    <h1 class="text-center">Pendidikan</h1>
+                    <p>Berikut adalah informasi mengenai riwayat pendidikan saya:</p>
+                    <ul>
+                        <li>Taman Kanak-kanak (TK) di TK Centeh, Bandung (2010 - 2011)
+                            <div class="img-container">
+                                <img src="TK.jpg" alt="TK Centeh" class="img-fluid">
+                            </div>
+                        </li>
+                        <li>Sekolah Dasar di SDN 109 Centeh, Bandung (2011 - 2017)
+                            <div class="img-container">
+                                <img src="SD.jpg" alt="SDN 109 Centeh" class="img-fluid">
+                            </div>
+                        </li>
+                        <li>Sekolah Menengah Pertama di SMPN 20 Bandung (2017 - 2020)
+                            <div class="img-container">
+                                <img src="SMP.png" alt="SMPN 20 Bandung" class="img-fluid">
+                            </div>
+                        </li>
+                        <li>Sekolah Menengah Kejuruan di SMK Kartika XIX-1 Bandung (2020 - 2023)
+                            <div class="img-container">
+                                <img src="SMK.jpg" alt="SMK Kartika XIX-1 Bandung" class="img-fluid">
+                            </div>
+                        </li>
+                        <li>Saat ini berkuliah di Politeknik Manufaktur Bandung (2023 - sekarang)
+                            <div class="img-container">
+                                <img src="POLMAN.jpg" alt="Politeknik Manufaktur Bandung" class="img-fluid">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

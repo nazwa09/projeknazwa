@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Pribadi</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #f8fafc, #e0eafc);
+        }
+        h1, h2 {
+            color: rgb(37, 37, 34);
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .nav-link {
+            font-size: 18px;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .personal-info {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Profil Pribadi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="pendidikan.html">Pendidikan</a></li>
+                <li class="nav-item"><a class="nav-link" href="pengalaman.html">Pengalaman</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h1 class="card-title">Selamat Datang di Profil Saya</h1>
+                        <p class="card-text">Website ini menampilkan informasi tentang diri saya, termasuk riwayat pendidikan, pengalaman kerja, dan foto.</p>
+                        
+                        <!-- Tambahkan foto profil di sini -->
+                        <img src="DAY57135.png" alt="Foto Profil" class="profile-img">
+
+                        <h2 class="mt-4">Deskripsi Pribadi</h2>
+                        <div class="personal-info">
+                            <p><strong>Nama:</strong> Nazwa Al Hadiah Pahlevi</p>
+                            <p><strong>Lahir:</strong> Bandung, 9 September 2005</p>
+                            <p><strong>Alamat:</strong> Jl. Cibunut No 148/34A</p>
+                        </div>
+                        
+                        <a href="pendidikan.html" class="btn btn-primary">Riwayat Pendidikan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nazwa.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
