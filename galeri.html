@@ -16,16 +16,22 @@
             text-align: center;
             margin-top: 30px;
         }
-        .card {
+        .gallery-card {
             border-radius: 10px;
-            padding: 20px;
+            overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-top: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
         }
         .gallery-card img {
             border-radius: 10px;
-            max-width: 100%;
-            height: auto;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .gallery-card img:hover {
@@ -63,7 +69,7 @@
             <!-- Card 1 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card gallery-card mb-4">
-                    <img src="https://raw.githubusercontent.com/nazwa09/projeknazwa/main/sv4.jpg" alt="" class="card-img-top">
+                    <img src="https://raw.githubusercontent.com/nazwa09/projeknazwa/main/sv4.jpg" alt="Foto 1" class="card-img-top">
                 </div>
             </div>
             <!-- Card 2 -->
